@@ -1,0 +1,10 @@
+{
+  "client": "mysql(또는 다른 데이터베이스)",
+  "connection": {
+    "host": "127.0.0.1(또는 다른 DB 서버)",
+    "user": "데이터베이스 커넥션 계정",
+    "password": "계정 비밀번호",
+    "database": "데이터베이스 이름",
+    "charset": "utf8"
+  }
+}

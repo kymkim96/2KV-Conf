@@ -1,0 +1,43 @@
+{
+  "name": "2kv-conf",
+  "version": "1.0.0",
+  "description": "노래 영상 경연 웹사이트",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "bookshelf": "^1.1.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "googleapis": "^48.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.14",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-pool": "^2.8.3",
+    "nodemon": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "prettier": "^2.0.4",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon ./spec/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kymkim96/2KV-Conf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kymkim96/2KV-Conf/issues"
+  },
+  "homepage": "https://github.com/kymkim96/2KV-Conf#readme"
+}
