@@ -6,6 +6,6 @@ router.get('/', (req, res) => {
     res.send('홈');
 });
 router.post('/upload', upload_file.single('file'), upload_db);
-router.post('/video', video);
+router.get('/video/:id', video);
 
 module.exports = router;
